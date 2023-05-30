@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    /* background-color: #772f1a;
+    background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+     */
+    background: url(https://media.istockphoto.com/id/1010238190/photo/blue-defocused-blurred-motion-abstract-background.jpg?b=1&s=170667a&w=0&k=20&c=F3XyYKdl4L3ISDdAxTG8-nv0x4M_p6hSaeXa2vNxbwI=);
+    background-repeat: no-repeat; 
+    background-size:cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:lightskyblue;
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
+    border-radius: 2px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.search-input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+
+.search-input:focus {
+    outline-color: royalblue;
+}
+
+.search-button {
+    padding: 9px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    margin-left: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    /* transition: all ease-in-out; */
+}
+
+.search-button:hover {
+    background-color: white;
+    color: royalblue;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.nav-item {
+    margin-left: 20px;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    background-color: royalblue;
+    color: white;
+}
+
+.active {
+    background-color: royalblue;
+    color: white;
+}
+
+
+.cantainer {
+    /* height: 350px */
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: azure;
+    border-radius: 8px;
+}
+
+.pass {
+    margin-bottom: 15px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+}
+
+.pass label {
+    /* display: flex; */
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.pass input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.pass #button{
+    display: inline;
+    padding: 10px;
+    background-color: royalblue;
+    color: white;
+    outline-color: blue;
+    margin-left: 5px;
+    border-radius: 6px;
+    cursor: pointer; 
+}
+
+#button:hover{
+    background-color: white;
+    color: royalblue;
+}
